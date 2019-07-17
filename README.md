@@ -17,3 +17,5 @@ We upload the test vedio `standing1.MP4` in `test_vedio` folder. And the output 
 
 Tensorflow detection provides a collection of detection models pre-trained on the COCO dataset, the Kitti dataset, the Open Images dataset, the AVA v2.1 dataset and the iNaturalist Species Detection Dataset. We use these pre-trained models to make prediction on our test datasets. we can download the pre-trained models from [http://download.tensorflow.org/models/object_detection/](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).I choose `faster_rcnn_resnet50_coco_2018_01_28` as default model which has the best performance on our datasets that I have ever tried. 
 
+### 4. Perform the object detection
+Run `pedestrian_tracking.ipynb` and follow the instructions inside. 
